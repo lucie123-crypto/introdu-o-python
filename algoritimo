@@ -1,0 +1,27 @@
+nome = input("digite seu nome")
+nota1 = float(input("Digite a primeira nota"))
+nota2 = float(input("Digite a segunda nota"))
+media = (nota1+nota2) / 2
+print("Aluno(a) ",nome, "obteve media final",media)
+
+nome = input("digite seu nome ")
+peso = float(input("Digite seu peso "))
+altura = float(input("Digite sua altura "))
+imc = peso/altura ** 2
+print("Olá",nome, "Você obteve IMC {:.2f} ".format(imc))
+
+numero = int(input("Digite um número de 0 a 99 ="))
+dezenas = numero // 10 
+unidades = numero % 10 
+print("A dezena é: ", dezenas)
+print("A unidade é: ", unidades)
+
+largura = float(input("Digite a largura"))
+comprimento = float(input("Digite o comprimento"))
+terreno = largura*comprimento
+print("Olá", "A Área do terreno é:", terreno)
+
+base = float(input("Digite o número da base"))
+altura = float(input("Digite o número da altura"))
+area = base*altura /2
+print("Olá", "A Soma do calculo é:", area)
