@@ -25,3 +25,32 @@ base = float(input("Digite o número da base"))
 altura = float(input("Digite o número da altura"))
 area = base*altura /2
 print("Olá", "A Soma do calculo é:", area)
+
+print("Olá Bem-vindo ao Conversor de Temperaturas🌡️")
+celsius = float(input("Para começar, insira a temperatura em celsius que deseja converter "))
+fahrenheit = celsius * 1.8 + 32
+print("Agora você tem a temperatura convertida.😊"f"{celsius}°C é igual a {fahrenheit}f°")
+
+
+numero = int(input("Digite um número de 0 a 1000 ="))
+dobro = numero * 2
+metade = numero / 2
+print("O Dobro é: ", dobro)
+print("A Metade é: ", metade)
+
+numero = int(input("Digite um número de 0 a 1000 ="))
+antecessor = numero - 1
+sucessor = numero + 1
+print("O Antecessor é: ", antecessor)
+print("O Sucessor é: ", sucessor)
+
+numero1 = float(input("Digite um número="))
+numero2 = float(input("Digite um número="))
+soma = numero1 + numero2
+subtracao = numero1 - numero2
+multiplicacao = numero1 * numero2
+divisao = numero1 / numero2
+print("A soma é: ", soma)
+print("A subtração é: ", subtracao)
+print("A multiplicação é: ", multiplicacao)
+print("A divisão é: ", divisao)
