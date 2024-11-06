@@ -69,6 +69,64 @@ c = float(input("Digite o valor de C: "))
 delta = (b**2) - (4*a*c)
 print("O valor de Delta é: ", delta)
 
-Atividade 12 produto = float(input("Digite o valor do produto: "))
+Atividade 12 
+produto = float(input("Digite o valor do produto: "))
 valor = produto*0.05
 print("o desconto do valor", produto, "foi",valor)
+
+Atividade 13
+salario = float(input("Digite o seu salario: "))
+valor = salario*0.15
+total = salario+valor	
+print("O seu salario de:", salario, "Aumentou para",total)
+
+Atividade 14
+km = float(input("Qual a quantidade de Km percorido pelo carro alugado? "))
+alu = float(input("Qual a quantidade de dias pelo qual o carro foi alugado? "))
+valorkm = km*0.20
+valoralu = alu*90
+total = valoralu+valorkm
+print("Olá, o valor do aluguel foi", total)
+
+Atividade 15
+dt = float(input("Quantos dias você trabalhou esse mês? "))
+total = dt*200
+print("Seu salario esse mês foi", total, "Reais")
+
+Atividade 16
+dia = int(input("Olá, qual a quantidade de cigaros que vc fuma por dia? "))
+anos = int(input("quantos anos você ja fumou? "))
+ano = 365
+cigaros = 10
+total1 = anos*ano*cigaros
+total2 = total1*cigaros
+total3 = total2/(24*60)
+print(f"Você perdeu {total3:.2f} dias")
+
+Atividade 16
+km = int(input("Olá, qual a velocidade dp carro? "))
+velocidade = 80
+
+if km > velocidade:
+    multa=5*(km-80) 
+    print ("vc recebeu um multa", multa,"Reais")
+    print ("você precisa anda devagar")
+else: print ("Obrigado por andar corretamente")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
