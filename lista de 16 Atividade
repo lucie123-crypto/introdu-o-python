@@ -175,6 +175,15 @@ if idade < 18:
 else:
     print(f"{nome} você precisa se alistar.")
 
+Atividade 23
+ nome = input("Digite seu nome")
+ sexo = input("Com qual genero vc se identifica?")
+ compras = float(input("Qual o valor da suas compras?"))
+ if sexo == 'mulher' :
+     print("seu desconto é de 13%, o valor de suas compras fica",(valor)*o.87)
+else sexo == 'homem' :
+    print("seu desconto é de 5%, o valor de suas compras fica",(valor)*0.95)
+
 
 
 
