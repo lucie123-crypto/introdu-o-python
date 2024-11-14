@@ -223,6 +223,15 @@ else:
     print("Não existe valor maior, os dois são iguais")
 
 Atividade 28
+n = int(input("Digite a primeira nota"))
+n2 = int(input("Digite a segunda nota"))
+media = (n+n2) / 2
+if media > 4.9 :
+    print("O Aluno esta reprovado")
+if media >= 5.0 and media <= 6.9 :
+    print("O Aluno está de recuperação")
+else:
+    print("Parabéns você esta aprovado")
 
 
 
