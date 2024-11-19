@@ -236,6 +236,24 @@ else:
 
 
 
+print("Bem-vindo a concessionaria!")
+carro = input("Qual o foi o Carro alugado? (Popular ou Luxo)")
+dias = int(input("Quantos dias o carro foi alugado?"))
+km = float(input("Quantos km foi percorrido"))
+
+if carro == "popular":
+    valoralu = dias * 90
+    if km <= 100:
+        valorkm = km * 0.20
+    else km >= 100:
+        valorkm = km*0.10
+    valor_total = valorkm + valoralu
+    print("O total do seu aluguel foi", valor_total)
+
+
+
+
+
 
 
 
