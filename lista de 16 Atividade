@@ -236,21 +236,29 @@ else:
 
 
 
-print("Bem-vindo a concessionaria!")
-carro = input("Qual o foi o Carro alugado? (Popular ou Luxo)")
-dias = int(input("Quantos dias o carro foi alugado?"))
-km = float(input("Quantos km foi percorrido"))
+Atividade 35
+print("Olá Bem-vindo a nossa concenssionaria")
+carro = input("Qual o foi o Carro alugado? (Popular ou Luxo): ")
+dias = int(input("Quantos dias o carro foi alugado? "))
+km = float(input("Quantos km foi percorrido? "))
 
 if carro == "popular":
     valoralu = dias * 90
     if km <= 100:
         valorkm = km * 0.20
-    else km >= 100:
-        valorkm = km*0.10
+    elif km > 100:  
+        valorkm = km * 0.10
     valor_total = valorkm + valoralu
-    print("O total do seu aluguel foi", valor_total)
+    print("O total do seu aluguel foi:", valor_total)
 
-
+if carro == "luxo":
+    valoralu = dias * 150
+    if km <= 200:
+        valorkm = km * 0.30
+    elif km > 100:  
+        valorkm = km * 0.25
+    valor_total = valorkm + valoralu
+    print("O total do seu aluguel foi:", valor_total)
 
 
 
