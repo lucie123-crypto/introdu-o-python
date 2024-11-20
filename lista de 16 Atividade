@@ -277,6 +277,41 @@ else:
     print(f"Olá, você ganhou {pontos} pontos e {ganho}$ Reais")
 
 
+Atividade 37
+print("Cada hora de atividade física no mês vale pontos")
+genero = (input("Você e Homem ou Mulher?"))
+salario = float(input("Qual o seu salário?"))
+anos = int(input("Quantos anos Você está na empresa?"))
+
+if genero == "mulher":
+    if anos <= 15:
+       aumento = salario *0.05
+       aumento1 = salario+aumento
+       print(f"O seu salario de {salario} Foi para {aumento1} ")
+    elif 15 <= anos <= 20:
+        aumento = salario *0.12
+        aumento1 = salario+aumento
+        print(f"O seu salario de {salario} Foi para {aumento1} ")
+    else:
+        aumento = salario*0.23
+        aumento1 = salario+aumento
+        print(f"O seu salario de {salario} Foi para {aumento1} ")
+
+if genero == "homem":
+    if anos <= 20:
+       aumento = salario *0.03
+       aumento1 = salario+aumento
+       print(f"O seu salario de {salario} Foi para {aumento1} ")
+    elif 20 <= anos <= 30:
+        aumento = salario *0.13
+        aumento1 = salario+aumento
+        print(f"O seu salario de {salario} Foi para {aumento1} ")
+    else:
+        aumento = salario*0.25
+        aumento1 = salario+aumento
+        print(f"O seu salario de {salario} Foi para {aumento1} ")
+
+
 
 
 
