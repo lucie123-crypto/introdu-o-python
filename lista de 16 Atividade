@@ -260,6 +260,23 @@ if carro == "luxo":
     valor_total = valorkm + valoralu
     print("O total do seu aluguel foi:", valor_total)
 
+Atividade 36
+print("Cada hora de atividade física no mês vale pontos")
+horas = int(input("Quantas horas por mês você fez atividade física? "))
+if horas <= 10:
+    pontos = horas * 2
+    ganho = pontos * 0.5
+    print(f"Olá, você ganhou {pontos} pontos e {ganho}$ Reais")
+elif 10 < horas <= 20:
+    pontos = horas * 5
+    ganho = pontos * 0.5
+    print(f"Olá, você ganhou {pontos} pontos e {ganho}$ Reais")
+else: 
+    pontos = horas *10
+    ganho = pontos *0.5 
+    print(f"Olá, você ganhou {pontos} pontos e {ganho}$ Reais")
+
+
 
 
 
