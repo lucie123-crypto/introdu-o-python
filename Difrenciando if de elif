@@ -1,0 +1,2 @@
+Uso: O elif (abreviação de "else if") permite testar outras condições, além do primeiro if. Você pode ter vários elif seguidos de um if, permitindo testar várias condições diferentes.
+Sintaxe: O elif sempre vem depois de um if e pode ter uma condição específica. Ele é útil quando você precisa verificar mais de uma condição antes de cair no else.
