@@ -278,7 +278,7 @@ else:
 
 
 Atividade 37
-print("Cada hora de atividade física no mês vale pontos")
+print("Uhumm, Hora de saber seu aumento!")
 genero = (input("Você e Homem ou Mulher?"))
 salario = float(input("Qual o seu salário?"))
 anos = int(input("Quantos anos Você está na empresa?"))
