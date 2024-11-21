@@ -311,6 +311,18 @@ if genero == "homem":
         aumento1 = salario+aumento
         print(f"O seu salario de {salario} Foi para {aumento1} ")
 
+Atividade 38
+for i in range(6, 12): 
+    print(i, end=" ") 
+
+print("Acabou!")  
+
+Atividade 39
+for i in range(10, 2, -1):
+    print(i, end=" ")  
+
+print("Acabou!")  
+
 
 
 
