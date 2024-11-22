@@ -335,6 +335,33 @@ for i in range(100, 79, -5):
 
 print("Acabou!") 
 
+Atividade 42
+numero=int(input("Digite um número inteiro positivo"))
+contador = 1
+while (contador <= numero):
+       print(contador)
+       contador = contador + 1
+print("Acabou!")
+
+Atividade 43
+contador = 30
+while (contador >= 16):
+    if contador % 4 == 0: 
+       print(f"[{contador}]", end=" ")
+       contador = contador - 1
+print("Acabou!")
+
+contador = 30
+while (contador >= 16):
+    if contador % 4 == 0: 
+        print(f"[{contador}]", end=" ")  
+    else:
+        print(contador, end=" ")  
+    contador = contador - 1 
+print("Acabou!")
+
+
+
 
 
 
