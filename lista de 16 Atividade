@@ -375,6 +375,39 @@ while (valor1 <= valor2):
        valor1 = valor1 + incremento
 print("Acabou!")
 
+Ativiadade 47
+print("Olá bem vindo ao contador de expressão")
+soma = 500 + 450 + 400 + 350 + 300 + 250 + 200 + 150 + 100 + 50
+print("O resultado da expressão e = ", soma)
+
+Atividade 48
+v1 = int(input("Digite o primeiro numero"))
+v2 = int(input("Digite o segundo numero"))
+v3 = int(input("Digite o terceiro numero"))
+v4 = int(input("Digite o quarto numero"))
+v5 = int(input("Digite o quinto numero"))
+v6 = int(input("Digite o sexto numero"))
+v7 = int(input("Digite o setimo numero"))
+soma = v1 + v2 + v3 + v4 + v5 + v6 + v7
+print("O resultado dos 7 numeros e =", soma)
+
+Atividade 49
+v1 = int(input("Digite o primeiro numero: "))
+v2 = int(input("Digite o segundo numero: "))
+v3 = int(input("Digite o terceiro numero: "))
+v4 = int(input("Digite o quarto numero: "))
+v5 = int(input("Digite o quinto numero: "))
+v6 = int(input("Digite o sexto numero: "))
+
+# Verifica se todos os números são pares
+if v1 % 2 == 0 and v2 % 2 == 0 and v3 % 2 == 0 and v4 % 2 == 0 and v5 % 2 == 0 and v6 % 2 == 0:
+    print("Os números são pares")
+else:
+    print("Os números são ímpares")
+
+
+
+
 
 
 
