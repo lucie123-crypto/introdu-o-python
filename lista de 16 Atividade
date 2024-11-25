@@ -360,6 +360,22 @@ while (contador >= 16):
     contador = contador - 1 
 print("Acabou!")
 
+Atividade 44 e 45
+valor1 = int(input("Digite o primeiro valor"))
+valor2 = int(input("Digite o ultimo valor"))
+incremento = int(input("Digite o incremento"))
+if valor1 > valor2 :
+    auxiliar = valor1
+    valor1 = valor2
+    valor2 = auxiliar
+    
+contador = valor1
+while (valor1 <= valor2):
+       print(valor1, end=" ")
+       valor1 = valor1 + incremento
+print("Acabou!")
+
+
 
 
 
