@@ -406,6 +406,25 @@ else:
     print("Os números são ímpares")
 
 
+import random
+
+sorteio=random.randint(1, 100)
+
+tentativas = 0
+while tentativas < 10:
+    jogador = int(input("Escreva um número"))
+    tentativas += 1
+    if jogador > sorteio:
+        print(" Você errou, o número digitado é maior que o numero sorteado")
+    if jogador < sorteio:
+        print(" Você errou, o número digitado é menor que o numero sorteado")
+    if jogador == sorteio:
+        print ("Acertou")
+        break
+        
+    if tentativas == 10:
+        print("Não foi dessa vez😭, Você atingiu o numero maximo de tentativas")
+
 
 
 
