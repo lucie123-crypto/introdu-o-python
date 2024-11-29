@@ -427,6 +427,78 @@ while tentativas < 10:
 
 
 
+Candidato_a = 0
+Candidato_b = 0
+Candidato_c = 0
+Candidato_d = 0
+Candidato_e = 0
+votos_nulos = 0
+votos_brancos = 0
+total_votos = 0
+
+# Iniciando o loop de votação
+resposta = 'S'  # Começa com a opção de continuar a votação
+
+while resposta == 'S' or resposta == 's':  # Enquanto a resposta for 'S' ou 's'
+    # Solicita o voto
+    voto = input("Escreva o número do candidato em que deseja votar (1-5). Qualquer outro número será considerado voto nulo: ")
+
+    # Verifica qual candidato foi escolhido ou se o voto é nulo
+    if voto == "1":
+        Candidato_a += 1
+        print("Você votou no Candidato A.")
+    elif voto == "2":
+        Candidato_b += 1
+        print("Você votou no Candidato B.")
+    elif voto == "3":
+        Candidato_c += 1
+        print("Você votou no Candidato C.")
+    elif voto == "4":
+        Candidato_d += 1
+        print("Você votou no Candidato D.")
+    elif voto == "5":
+        Candidato_e += 1
+        print("Você votou no Candidato E.")
+    else:
+        votos_nulos += 1
+        print("Voto nulo.")
+
+    # Aumenta o total de votos
+    total_votos += 1
+
+    # Pergunta se deseja votar novamente
+    resposta = input("Deseja votar novamente? (S/N): ").upper()
+
+# Exibe os resultados finais
+print("Resultados finais:")
+print(f"Total de votos: {total_votos}")
+print(f"Candidato A: {Candidato_a} votos")
+print(f"Candidato B: {Candidato_b} votos")
+print(f"Candidato C: {Candidato_c} votos")
+print(f"Candidato D: {Candidato_d} votos")
+print(f"Candidato E: {Candidato_e} votos")
+print(f"Votos nulos: {votos_nulos}")
+print(f"Votos brancos: {votos_brancos}")
+
+# Determina o vencedor de forma manual
+if Candidato_a > Candidato_b and Candidato_a > Candidato_c and Candidato_a > Candidato_d and Candidato_a > Candidato_e:
+    vencedor = "Candidato A"
+elif Candidato_b > Candidato_a and Candidato_b > Candidato_c and Candidato_b > Candidato_d and Candidato_b > Candidato_e:
+    vencedor = "Candidato B"
+elif Candidato_c > Candidato_a and Candidato_c > Candidato_b and Candidato_c > Candidato_d and Candidato_c > Candidato_e:
+    vencedor = "Candidato C"
+elif Candidato_d > Candidato_a and Candidato_d > Candidato_b and Candidato_d > Candidato_c and Candidato_d > Candidato_e:
+    vencedor = "Candidato D"
+elif Candidato_e > Candidato_a and Candidato_e > Candidato_b and Candidato_e > Candidato_c and Candidato_e > Candidato_d:
+    vencedor = "Candidato E"
+else:
+    vencedor = "Nenhum candidato, empate"
+
+# Exibe o vencedor
+print(f"O vencedor da eleição é: {vencedor}")
+
+
+
 
 
 
