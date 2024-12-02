@@ -1,0 +1,27 @@
+#listas
+for cont in range (10):
+    print(cont)
+
+for cont in range (20, 30, 2):
+    print(cont)
+
+
+for cont in range (50, 100, 5):
+    print(cont)
+
+
+#numeros
+lista = ["Maria", "João", "Ana"]
+print(lista)
+lista.append("Marcos")
+
+print(lista)
+for nome in lista:
+     print(nome)
+
+
+numeros = [10,20,30,50,60,80]    
+print("Soma = ", sum (numeros))
+print("Total de numeros = ", len(numeros))
+print("Menor valor = ", min(numeros))
+print("maior valor = ", max(numeros))    
